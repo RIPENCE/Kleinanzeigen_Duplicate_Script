@@ -105,3 +105,5 @@ GNU GPL License – siehe [LICENSE](LICENSE)
 
 Ursprünglich entwickelt von [J05HI](https://gist.github.com/J05HI).  
 Für die neue React-Seite komplett überarbeitet.
+
+#fixedWithClaudeCode
