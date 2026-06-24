@@ -22,6 +22,7 @@
 Die beiden Buttons erscheinen direkt neben dem **„Anzeige speichern"**-Button:
 
 > `Vorschau` · `Anzeige speichern` · `📋 Duplizieren` · `🔄 Neu einstellen`
+> 
 > <img width="969" height="240" alt="image" src="https://github.com/user-attachments/assets/deaf6438-c0ea-4407-af3f-4835434aa020" />
 
 
