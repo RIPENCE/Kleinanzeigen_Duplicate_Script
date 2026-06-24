@@ -3,8 +3,10 @@
 > Ein Userscript das beim Bearbeiten einer Anzeige auf [kleinanzeigen.de](https://www.kleinanzeigen.de) zwei zusätzliche Buttons hinzufügt: **Duplizieren** und **Neu einstellen**.
 
 ![Version](https://img.shields.io/badge/version-3.1.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![License](https://img.shields.io/badge/license-GNU%20GENERAL%20PUBLIC%20LICENSE%20V3-green)
 ![Platform](https://img.shields.io/badge/platform-Chromium%20%7C%20Console-orange)
+
+`ℹ️ Kein Tampermonkey o.ä. Skript-Addon benötigt! Läuft on-the-fly aus der Browser-Console!`
 
 ---
 
@@ -77,21 +79,10 @@ Die neue Kleinanzeigen-Seite (seit 2025) ist eine vollständige **React-SPA**. D
 ## 📋 Changelog
 
 ### v3.1.0
+- Komplette Neuentwicklung für die neue React-basierte Kleinanzeigen-Seite
 - CSRF-Token wird jetzt aus dem Hidden-Input `input[name="_csrf"]` gelesen
 - Delete-Funktion nutzt die neue Gateway-API mit Bearer-Token
 - Formulardaten werden direkt per API-Call übermittelt (kein React-Button-Click mehr)
-
-### v3.0.0
-- Komplette Neuentwicklung für die neue React-basierte Kleinanzeigen-Seite
-- Direkter API-Call statt DOM-Manipulation
-- Automatisches Wegklicken von Upsell-Modals
-
-### v2.x
-- MutationObserver für dynamisches DOM-Laden
-- Upsell-Modal-Handling
-
-### v1.4.0
-- Ursprüngliche Version (klassische HTML-Seite)
 
 ---
 
@@ -112,5 +103,5 @@ GNU GPL License – siehe [LICENSE](LICENSE)
 
 ## 🙏 Credits
 
-Ursprünglich entwickelt von [J05HI](https://github.com/J05HI).  
+Ursprünglich entwickelt von [J05HI](https://gist.github.com/J05HI).  
 Für die neue React-Seite komplett überarbeitet. #fixedWithClaudeCode
