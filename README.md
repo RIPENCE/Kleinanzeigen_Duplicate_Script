@@ -4,7 +4,7 @@
 
 ![Version](https://img.shields.io/badge/version-3.1.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Platform](https://img.shields.io/badge/platform-Tampermonkey%20%7C%20Violentmonkey-orange)
+![Platform](https://img.shields.io/badge/platform-Chromium%20%7C%20Console-orange)
 
 ---
 
@@ -22,27 +22,8 @@
 Die beiden Buttons erscheinen direkt neben dem **„Anzeige speichern"**-Button:
 
 > `Vorschau` · `Anzeige speichern` · `📋 Duplizieren` · `🔄 Neu einstellen`
+> <img width="969" height="240" alt="image" src="https://github.com/user-attachments/assets/deaf6438-c0ea-4407-af3f-4835434aa020" />
 
----
-
-## 🚀 Installation
-
-### Voraussetzungen
-
-Du benötigst einen Userscript-Manager im Browser:
-
-- [Tampermonkey](https://www.tampermonkey.net/) *(empfohlen)*
-- [Violentmonkey](https://violentmonkey.github.io/)
-
-### Installation
-
-1. Userscript-Manager installieren (falls noch nicht vorhanden)
-2. Auf den folgenden Link klicken – der Manager erkennt das Skript automatisch:
-
-   **[➡️ Skript installieren](../../raw/main/kleinanzeigen-duplizieren.user.js)**
-
-3. Im erscheinenden Dialog auf **„Installieren"** klicken
-4. Fertig ✅
 
 ---
 
@@ -50,7 +31,10 @@ Du benötigst einen Userscript-Manager im Browser:
 
 1. Auf [kleinanzeigen.de](https://www.kleinanzeigen.de) einloggen
 2. Eine eigene Anzeige öffnen und auf **„Bearbeiten"** klicken
-3. Die zwei neuen Buttons erscheinen neben „Anzeige speichern"
+3. Im "Anzeige bearbeiten" Fenster F12 drücken (Entwickler-Tools öffnen sich)
+4. In den Consolen Tab wechseln
+5. Skript dort Copy & Paste einfügen
+6. Die zwei neuen Buttons erscheinen neben „Anzeige speichern"
 
 ### 📋 Duplizieren
 
@@ -63,7 +47,6 @@ Du benötigst einen Userscript-Manager im Browser:
 - Klick auf **„🔄 Neu einstellen"**
 - Bestätigungsdialog erscheint
 - Die alte Anzeige wird gelöscht, dann als neue Anzeige eingestellt
-- Nützlich wenn die Anzeige wieder ganz oben erscheinen soll, ohne extra Kosten
 
 ---
 
@@ -71,10 +54,10 @@ Du benötigst einen Userscript-Manager im Browser:
 
 | Browser | Status |
 |---|---|
-| Chrome + Tampermonkey | ✅ |
-| Edge + Tampermonkey | ✅ |
-| Firefox + Tampermonkey | ✅ |
-| Firefox + Violentmonkey | ✅ |
+| Chrome     | ✅ |
+| Edge       | ✅ |
+| Firefox    | ✅ |
+| Vivaldi    | ✅ |
 
 ---
 
@@ -122,11 +105,11 @@ Die neue Kleinanzeigen-Seite (seit 2025) ist eine vollständige **React-SPA**. D
 
 ## 📄 Lizenz
 
-MIT License – siehe [LICENSE](LICENSE)
+GNU GPL License – siehe [LICENSE](LICENSE)
 
 ---
 
 ## 🙏 Credits
 
 Ursprünglich entwickelt von [J05HI](https://github.com/J05HI).  
-Für die neue React-Seite komplett überarbeitet.
+Für die neue React-Seite komplett überarbeitet. #fixedWithClaudeCode
