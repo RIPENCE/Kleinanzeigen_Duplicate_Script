@@ -8,6 +8,8 @@
 
 `ℹ️ Kein Tampermonkey o.ä. Skript-Addon benötigt! Läuft on-the-fly aus der Browser-Console!`
 
+`ℹ️Link to Github GIST: https://gist.github.com/RIPENCE/9d97011a3c6aad447e454b4bddd17874`
+
 ---
 
 ## ✨ Features
